@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.signUpButton) void signUpButtonPressed() {
-        signUp("faydee1220@gmail.com", "123");
+        signUp("faydee1220@gmail.com", "123456");
     }
 
     private void signUp(String email, String password) {
